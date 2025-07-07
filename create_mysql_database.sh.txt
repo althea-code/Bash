@@ -2,11 +2,11 @@ Create MySQL database in Bash
 
 
 #start and enable MySQL
->sudo systemctl start mysql
->sudo systemctl enable MySQL
+sudo systemctl start mysql
+sudo systemctl enable MySQL
 
 #check service status of MySQL
->sudo systemctl status MySQL
+sudo systemctl status MySQL
 
 #log into MySQL
 sudo MySQL -u root -p
