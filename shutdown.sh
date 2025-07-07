@@ -1,2 +1,5 @@
-sudo shutdown now -- shutsdown immediately
-sudo shutdown +5 -- shutdown in 5 minutes
+#shutdown immediately
+sudo shutdown now 
+
+# shutdown in 5 min
+sudo shutdown +5  
