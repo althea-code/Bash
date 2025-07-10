@@ -1,0 +1,9 @@
+# current runlevel (equivalent given whether kernel is using SysVinit or Systemd)
+runlevel
+
+# current target (will only work on Systemd kernels)
+systemctl get-default
+
+# see current running processes
+ps ax
+
